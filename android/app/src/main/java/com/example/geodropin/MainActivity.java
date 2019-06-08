@@ -1,4 +1,4 @@
-package com.gligerglg.geodropin;
+package com.example.geodropin;
 
 import android.os.Bundle;
 import io.flutter.app.FlutterActivity;
