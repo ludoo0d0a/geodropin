@@ -71,7 +71,7 @@ class _AddPlaceState extends State<AddPlace> {
                     myLocationEnabled: true,
                     markers: _markers,
                     initialCameraPosition:
-                        CameraPosition(target: LatLng(7.7102243,80.9116461), zoom: 7),
+                        CameraPosition(target: LatLng(49.7102243,6.9116461), zoom: 7),
                   ),
                   new Padding(
                     padding: EdgeInsets.all(20),
