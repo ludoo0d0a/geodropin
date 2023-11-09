@@ -1,0 +1,253 @@
+repo_name: ludoo0d0a/geodropin
+report_id: 6d69eaff870803d81c25c51edec17516
+repo_type: Public
+timestamp: '2023-11-09T21:47:47+00:00'
+requested_by: ludoo0d0a
+provider: github
+branch: master
+detected_tools_count: 20
+tools:
+- name: Dart
+  description: A new web programming language with libraries, a virtual machine, and
+    tools
+  website_url: https://www.dartlang.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1646/Twitter-02.png
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source: Repo Metadata
+- name: Objective-C
+  description: The primary programming language you use when writing software for
+    OS X and iOS
+  website_url: https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1008/xcode.png
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source: Repo Metadata
+- name: Android SDK
+  description: An SDK that provides you the API libraries and developer tools necessary
+    to build, test, and debug apps for Android.
+  website_url: http://developer.android.com
+  version: '28.0'
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1010/m8jf0po4imu8t5eemjdd.png
+  detection_source_url: android/app/build.gradle
+  detection_source: android/app/build.gradle
+  last_updated_by: LudoO
+  last_updated_on: 2019-09-12 20:38:51.000000000 Z
+- name: Flutter
+  description: Cross-platform mobile framework from Google
+  website_url: https://flutter.io/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Cross-Platform Mobile Development
+  image_url: https://img.stackshare.io/service/7180/flutter-mark-square-100.png
+  detection_source: pubspec.yaml
+  last_updated_by: LudoO
+  last_updated_on: 2019-09-12 20:38:51.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source: android/app/build.gradle
+  last_updated_by: gayan_g
+  last_updated_on: 2019-03-19 10:24:30.000000000 Z
+- name: Android OS
+  description: An open source mobile operating system by Google
+  website_url: https://www.android.com
+  version: '9.0'
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/9586/ZvmtaSXW_400x400.jpg
+  detection_source_url: android/app/build.gradle
+  detection_source: android/app/build.gradle
+  last_updated_by: LudoO
+  last_updated_on: 2019-09-12 20:38:51.000000000 Z
+- name: cupertino_icons
+  description: Default icons asset for Cupertino widgets based on Apple styled icons
+  package_url: https://pub.dartlang.org/cupertino_icons
+  version: 0.1.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pubspec.yaml
+  detection_source: pubspec.yaml
+  last_updated_by: LudoO
+  last_updated_on: 2019-09-12 20:38:51.000000000 Z
+- name: flare_flutter
+  description: Vector design and runtime animation for Flutter
+  package_url: https://pub.dartlang.org/flare_flutter
+  version: 1.5.8
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pubspec.yaml
+  detection_source: pubspec.yaml
+  last_updated_by: LudoO
+  last_updated_on: 2019-09-12 20:38:51.000000000 Z
+- name: flutter
+  description: Visit flutter.io to get started
+  package_url: https://pub.dartlang.org/flutter
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source: pubspec.yaml
+  last_updated_by: LudoO
+  last_updated_on: 2019-09-12 20:38:51.000000000 Z
+- name: flutter_google_places
+  description: Google places autocomplete widgets for flutter
+  package_url: https://pub.dartlang.org/flutter_google_places
+  version: 0.2.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pubspec.yaml
+  detection_source: pubspec.yaml
+  last_updated_by: LudoO
+  last_updated_on: 2019-09-12 20:38:51.000000000 Z
+- name: flutter_launcher_icons
+  description: A package which simplifies the task of updating your Flutter app's
+    launcher icon
+  package_url: https://pub.dartlang.org/flutter_launcher_icons
+  version: 0.7.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pubspec.yaml
+  detection_source: pubspec.yaml
+  last_updated_by: LudoO
+  last_updated_on: 2019-09-12 20:38:51.000000000 Z
+- name: flutter_local_notifications
+  description: A cross platform plugin for displaying and scheduling local notifications
+    for Flutter applications with the ability to customise for each platform
+  package_url: https://pub.dartlang.org/flutter_local_notifications
+  version: 0.8.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pubspec.yaml
+  detection_source: pubspec.yaml
+  last_updated_by: LudoO
+  last_updated_on: 2019-09-12 20:38:51.000000000 Z
+- name: geolocator
+  description: Geolocation plugin for Flutter
+  package_url: https://pub.dartlang.org/geolocator
+  version: 5.1.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pubspec.yaml
+  detection_source: pubspec.yaml
+  last_updated_by: LudoO
+  last_updated_on: 2019-09-12 20:38:51.000000000 Z
+- name: google_maps_flutter
+  description: A Flutter plugin for integrating Google Maps in iOS and Android applications
+  package_url: https://pub.dartlang.org/google_maps_flutter
+  version: 0.5.16
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pubspec.yaml
+  detection_source: pubspec.yaml
+  last_updated_by: LudoO
+  last_updated_on: 2019-09-12 20:38:51.000000000 Z
+- name: path_provider
+  description: Flutter plugin for getting commonly used locations on host platform
+    file systems
+  package_url: https://pub.dartlang.org/path_provider
+  version: 1.3.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pubspec.yaml
+  detection_source: pubspec.yaml
+  last_updated_by: LudoO
+  last_updated_on: 2019-09-12 20:38:51.000000000 Z
+- name: shared_preferences
+  description: Flutter plugin for reading and writing simple key-value pairs
+  package_url: https://pub.dartlang.org/shared_preferences
+  version: 0.5.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pubspec.yaml
+  detection_source: pubspec.yaml
+  last_updated_by: LudoO
+  last_updated_on: 2019-06-08 09:23:30.000000000 Z
+- name: sqflite
+  description: Flutter plugin for SQLite
+  package_url: https://pub.dartlang.org/sqflite
+  version: 1.1.6
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pubspec.yaml
+  detection_source: pubspec.yaml
+  last_updated_by: LudoO
+  last_updated_on: 2019-09-12 20:38:51.000000000 Z
